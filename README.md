@@ -14,14 +14,16 @@ Summary: A set of helper functions for using R Markdown to create documents in d
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-docxtools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-docxtools-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-docxtools-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-docxtools-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-docxtools-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-docxtools-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-docxtools-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-docxtools-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-docxtools-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-docxtools-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-docxtools-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-docxtools-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-docxtools/badges/version.svg)](https://anaconda.org/conda-forge/r-docxtools)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-docxtools/badges/downloads.svg)](https://anaconda.org/conda-forge/r-docxtools)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--docxtools-green.svg)](https://anaconda.org/conda-forge/r-docxtools) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-docxtools.svg)](https://anaconda.org/conda-forge/r-docxtools) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-docxtools.svg)](https://anaconda.org/conda-forge/r-docxtools) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-docxtools.svg)](https://anaconda.org/conda-forge/r-docxtools) |
 
 Installing r-docxtools
 ======================
