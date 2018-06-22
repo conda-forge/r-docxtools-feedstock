@@ -29,6 +29,7 @@ requirements:
     - r-pander
     - r-stringr
     - r-tidyr
+    - r-lubridate
   run:
     - r-base
     - r-dplyr
@@ -36,6 +37,7 @@ requirements:
     - r-pander
     - r-stringr
     - r-tidyr
+    - r-lubridate
 
 test:
   commands:
