@@ -1,4 +1,4 @@
-{% set version = '0.1.1' %}
+{% set version = "0.1.3" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/docxtools_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/docxtools/docxtools_{{ version }}.tar.gz
-  sha256: e0a8e9e469361adba7a6d5a992e103e4949c457e579fe25efb2ed60242a28fd6
+  sha256: 4313ba90137e9ae9c9e82c63e0c3a10dbe474859c20245cec32cd0486b561031
 
 build:
   number: 0
@@ -29,6 +29,7 @@ requirements:
     - r-pander
     - r-stringr
     - r-tidyr
+    - r-lubridate
   run:
     - r-base
     - r-dplyr
@@ -36,6 +37,7 @@ requirements:
     - r-pander
     - r-stringr
     - r-tidyr
+    - r-lubridate
 
 test:
   commands:
