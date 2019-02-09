@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/docxtools_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/docxtools/docxtools_{{ version }}.tar.gz
-  sha256: 5917d91ba1ffda3385c26e4eaa174d493f0653e80208754c3cd7de0b490be757
+  sha256: 6ee1473c0d8d63f90bf20b914b080c33df167d5219f54564fe81fb917355cc25
 
 build:
   noarch: generic
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
