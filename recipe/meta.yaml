@@ -1,4 +1,4 @@
-{% set version = '0.2.1' %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -13,8 +13,8 @@ source:
   sha256: 6ee1473c0d8d63f90bf20b914b080c33df167d5219f54564fe81fb917355cc25
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -22,7 +22,7 @@ build:
 
 requirements:
   build:
-    - {{posix}}zip               # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-dplyr
@@ -50,10 +50,12 @@ test:
 about:
   home: https://graphdr.github.io/docxtools
   license: MIT
-  summary: A set of helper functions for using R Markdown to create documents in docx format,
-    especially documents for use in a classroom or workshop setting.
+  summary: A set of helper functions for using R Markdown to create documents in docx format, especially documents for use in a classroom or workshop setting.
   license_family: MIT
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
+    - LICENSE
 extra:
   recipe-maintainers:
     - conda-forge/r
