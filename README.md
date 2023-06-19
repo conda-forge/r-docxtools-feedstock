@@ -1,11 +1,11 @@
-About r-docxtools
-=================
+About r-docxtools-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-docxtools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://graphdr.github.io/docxtools
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-docxtools-feedstock/blob/main/LICENSE.txt)
 
 Summary: A set of helper functions for using R Markdown to create documents in docx format, especially documents for use in a classroom or workshop setting.
 
