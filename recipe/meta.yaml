@@ -1,6 +1,5 @@
 {% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-docxtools
@@ -13,8 +12,7 @@ source:
   sha256: 10cf9365782a15eda8caf73e5083c4e6351a54a24c3ceaf20448c92f2dafd57d
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
